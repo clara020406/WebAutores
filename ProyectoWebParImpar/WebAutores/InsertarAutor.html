@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nuevo Autor</title>
+<link rel="stylesheet" type="text/css" href="MiCss.css">
+</head>
+<body>
+<div class="form-container">
+<h1>Nuevo autor</h1>
+<form action="ResultadoInsercion.jsp" method="GET">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <p>
+    <label for="nacionalidad">Nacionalidad:</label>
+    <input type="text" name="nacionalidad" id="nacionalidad">
+    <p>
+    <label for="fechaNacimiento">Fecha de nacimiento:</label>
+    <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+    <p>
+    <button type="submit">Aceptar</button>
+    <button type="button" onclick="window.location.href='index.html'">Volver</button>
+</form>
+</div>
+</body>
+</html>
